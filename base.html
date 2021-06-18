@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap">
+    
+    <link rel="stylesheet" href="./style/ctyle.css">
+    <script src="./js/size.js" defer></script>
+    <script src="./js/click.js" defer></script>
+
+    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=<ваш API-ключ>" type="text/javascript"></script>
+    <script src="./js/placemark_layout.js" type="text/javascript"></script>
+
+</head>
+<body>
+    <section>
+        <header class="header"> 
+            <nav>
+                <img class="image" src="./picture/logo.png" alt="">
+                
+                <div class="nav_menu">
+                    <!--/*==========MENU_BUTER==========*/-->
+    
+                        <input type="checkbox" id="side-checkbox" />
+                    <div class="side-panel">
+                        <label class="side-button-2" for="side-checkbox"></label>    
+                        <div class="side-title"><h1>MENU:</h1></div>
+                        <a href="index.html">
+                            <h2>Другие статьи</h2>
+                        </a>
+                        <a href="index.html">
+                            <h2>Sing in</h2>
+                        </a>
+                        <a href="index.html">
+                            <h2>Поддержка</h2>
+                        </a>
+
+                    </div>
+                    <div class="side-button-1-wr">
+                        <label class="side-button-1" for="side-checkbox">
+                            <div class="side-b side-open"><img src="./picture/menu/but.svg" alt=""></div>
+                            <div class="side-b side-close"><img src="./picture/menu/but.svg" alt=""></div>
+                        </label>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="header_block">
+                <h1>Шанхай</h1>
+            </div>
+        </header>
+    </section>
+
+    <section>
+        <heading class="heading"> 
+            <heading_block class="heading_block1">
+                <h2>M50 – художественный район. Раньше там был комплекс полуразрушенных складов, который превратили в  место для продвижения современного искусства Шанхая. </h2>
+            </heading_block>
+            <heading_block class="heading_block2">
+                <h2>Хуанпу - одна из самых длинных рек Китая.  Круиз по реке в вечернее время – лучший способ увидеть старый и новый Шанхай. Длительность экскурсии 1-3 часа. </h2>
+            </heading_block>
+            <heading_block class="heading_block3">
+                <h2>Нанкин-Роуд – это крупнейшая торговая улица Шанхая, привлекающая около миллиона покупателей в день. Создана в 1845 году.
+                </h2>
+            </heading_block>
+        </heading>
+    </section>
+
+    <section >
+        <article class="article_block_1">
+            <div class="article_block1_text">
+                <h2>Шанхай — самый населенный город в мире, расположен в устье реки Янцзы. Первоначально это была маленькая приморская рыболовецкая деревня, теперь же – громадный город, крупный порт, сочетающий культуру современного и традиционного Китая.</h2>
+            </div>
+
+            <div class="active_block_element_map"> 
+                <div id="map"></div>
+            </div>
+        </article>
+    </section>
+
+    <section>
+        <article class="article_block_2">
+            <h2> На улице Сунь Ятсена есть участок в 1,5 км, прилегающий к реке – это Набережная Вайтань. Она оформлена не в китайском, а традиционном европейском стиле. Напротив нее располагаются знаменитые небоскребы.
+            Благодаря яркому свету фонарей и вывесок, а также общей оживленности, район набережной является лучшим местом для того, чтобы посмотреть на ночной Шанхай.
+            </h2>
+        </article>
+    </section>
+
+    <section>
+        <article class="article_block_3">
+            <h2>Шанхай являет собой собственный мир, заявленные здесь темы - иные, чем в остальной части страны. Здесь смотрят не в прошлое, а в будущее. </h2>
+        </article>
+    </section>
+
+    <section>
+        <footer class="footer">
+            <div class="footer_element">
+                 
+                <div class="size">
+                    <div class="emoji open active"> <img src="./picture/11.png" height="200px"> </div>
+                    <div class="emoji close"> <img src="./picture/22.png" height="200px"> </div>
+                </div>
+                <div> <h1 class="counter" style="color: rgb(50, 53, 85);">&lt&lt klick &gt&gt</h1> </div> 
+            </div>
+
+            <div class="copyright">
+                <h1 class="aside">© 2021 Travel</h1>
+            </div>
+        </footer>
+    </section>
+    <section>
+        <aside class="aside">
+            <a href="https://t.me/joinchat/Twj1K64WyKtjOGUy"> 
+                <img class="bord" src="./picture/share/telegram.jpeg" height="80px" alt="">
+            </a>
+            <a href="https://vk.com/lifuka"> 
+                <img class="bord" src="./picture/share/vk.jpg" height="80px" alt="">
+            </a>
+            <h1 class="aside">👈🏼klick</h1>
+        </aside>
+    </section>
+</body>
+</html>
